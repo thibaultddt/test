@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique de Chaussures</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: #333;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .shoe-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .shoe-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+            width: 300px;
+        }
+
+        .shoe-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .shoe-card h3 {
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Boutique de Chaussures</h1>
+    </header>
+
+    <nav>
+        <a href="#">Accueil</a>
+        <a href="#">Hommes</a>
+        <a href="#">Femmes</a>
+        <a href="#">Enfants</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Nos Produits</h2>
+
+        <div class="shoe-list">
+            <div class="shoe-card">
+                <img src="chaussure1.jpg" alt="Chaussure 1">
+                <h3>Chaussure Élégante</h3>
+                <p>Description de la chaussure. Tailles disponibles: 36-45.</p>
+                <p>Prix: $50</p>
+                <button>Ajouter au Panier</button>
+            </div>
+
+            <div class="shoe-card">
+                <img src="chaussure2.jpg" alt="Chaussure 2">
+                <h3>Baskets Confort</h3>
+                <p>Description de la chaussure. Tailles disponibles: 38-48.</p>
+                <p>Prix: $65</p>
+                <button>Ajouter au Panier</button>
+            </div>
+
+            <!-- Ajoutez d'autres chaussures ici -->
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Boutique de Chaussures. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
